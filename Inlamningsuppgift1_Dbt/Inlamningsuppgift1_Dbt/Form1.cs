@@ -100,6 +100,12 @@ namespace Inlamningsuppgift1_Dbt
             if (cont!= null)
             {
                 cont.Name = tbxName.Text;
+                cont.StreetAddress = tbxStreet.Text;
+                cont.City = tbxCity.Text;
+                cont.Zip = tbxZip.Text;
+                cont.Phone = tbxPhone.Text;
+                cont.Email = tbxEmail.Text;
+                cont.Birthday = Convert.ToDateTime(dtpBirthday);
             }
 
             //save modified entity using new Context
