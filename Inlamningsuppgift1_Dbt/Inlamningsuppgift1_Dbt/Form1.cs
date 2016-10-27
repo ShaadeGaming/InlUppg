@@ -105,7 +105,7 @@ namespace Inlamningsuppgift1_Dbt
                 cont.Zip = tbxZip.Text;
                 cont.Phone = tbxPhone.Text;
                 cont.Email = tbxEmail.Text;
-                cont.Birthday = Convert.ToDateTime(dtpBirthday);
+                cont.Birthday = Convert.ToDateTime(dtpBirthday.Value);
             }
 
             //save modified entity using new Context
